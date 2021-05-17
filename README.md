@@ -1,2 +1,2 @@
 # JavaJogos
-Jogos desenvolvidos em java. 
+Jogos desenvolvidos em Java. 
