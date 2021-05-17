@@ -18,6 +18,7 @@ public class ModelJogoVelha {
 		Random aleatorio = new Random();
 		index = aleatorio.nextInt(4+1);
 		palavra = dados[index];
+		//commit
 		
 		return palavra;
 	}
