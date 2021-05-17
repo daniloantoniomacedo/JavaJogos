@@ -19,7 +19,6 @@ public class ModelJogoVelha {
 		index = aleatorio.nextInt(4+1);
 		palavra = dados[index];
 		
-		//git 
 		
 		
 		return palavra;
