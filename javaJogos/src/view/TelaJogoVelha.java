@@ -24,7 +24,6 @@ public class TelaJogoVelha {
 		System.out.println("  __________");
 		System.out.println(" |          |");
 		System.out.println(" |          0");
-		System.out.println(" |          |");
 		System.out.println(" |         /|\\");
 		System.out.println(" |          |  ");
 		System.out.println(" |         / \\");
