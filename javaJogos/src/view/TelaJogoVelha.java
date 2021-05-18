@@ -8,7 +8,6 @@ public class TelaJogoVelha {
 		gerarForca();
 		gerarTracejado(ModelJogoVelha.gerarPalavra());
 		
-
 	}
 	
 	public static void gerarForca() {
