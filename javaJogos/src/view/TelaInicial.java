@@ -5,10 +5,11 @@ import java.util.Scanner;
 
 public class TelaInicial {
 	
-	public static String nomeUsuario() {
+	public static String nome;
+	
+	public static void nomeUsuario() {
 		
 		Scanner teclado = new Scanner(System.in);
-		String nome = " ";
 		System.out.println("########### MENU INICIAL ###########");
 		System.out.println("Qual seu nome?");
 		nome = teclado.nextLine();
@@ -16,7 +17,6 @@ public class TelaInicial {
 			System.out.println("Qual seu nome?");
 			nome = teclado.nextLine().trim();
 		}
-		return nome;
 	}
 
 	public static int menuPrincipal() throws InputMismatchException{
