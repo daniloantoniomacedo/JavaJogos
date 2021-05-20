@@ -10,7 +10,7 @@ public class TelaInicial {
 	public static void nomeUsuario() {
 		
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("########### MENU INICIAL ###########");
+		System.out.println("########### CADASTRO ###########");
 		System.out.println("Qual seu nome?");
 		nome = teclado.nextLine();
 		while (nome.equals("")) {
@@ -23,6 +23,7 @@ public class TelaInicial {
 
 		Scanner teclado = new Scanner(System.in);
 		int opcao = 0;
+		System.out.println("\n########### MENU INICIAL ###########");
 		System.out.println("Esolha uma opção: \n"
 				+ "Digite (1) para Jogo da Forca; \n"
 				+ "Digite (2) Batalha Naval; \n"

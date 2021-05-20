@@ -9,6 +9,30 @@ public class ModelJogoForca {
 	public static int countVitorias;
 	public static int countDerrotas;
 	public static int countLetras;
+	
+	public static void executarJogoForca() {
+		
+		System.out.println("\nJogo da Forca selecionado!");
+
+		char[] letras = gerarPalavra();
+
+		while (countDerrotas <= 7){
+			TelaJogoForca.gerarForca();
+			TelaJogoForca.gerarTracejado(letras);
+			if (verificarVitoria(letras) == true) {
+				TelaJogoForca.imprimirResultado(true);
+				break;
+			}
+			TelaJogoForca.obterResposta();
+			validarCaracter(letras);	
+			if (countDerrotas >= 7) {
+				TelaJogoForca.gerarForca();
+				TelaJogoForca.imprimirResultado(false);
+				break;
+			}
+		}
+		
+	}
 
 	public static char[] gerarPalavra() {
 

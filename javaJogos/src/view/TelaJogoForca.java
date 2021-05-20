@@ -12,7 +12,7 @@ public class TelaJogoForca {
 
 	public static void gerarForca() {
 
-		System.out.printf("Você deverá acertar a palavra \n"
+		System.out.printf("\nVocê deverá acertar a palavra \n"
 				+ "em %d tentativas para vencer o jogo. \n", 7-ModelJogoForca.countDerrotas);	
 
 		switch (ModelJogoForca.countDerrotas) {
